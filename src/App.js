@@ -1,10 +1,10 @@
-import UseRefExample3 from "./components/UseRefExample3";
+import UseMemoExample from "./components/UseMemoExample";
 
 function App() {
   return (
     <div className="container">
       <h1 className="display-1 text-center">React advanced hooks</h1>
-      <UseRefExample3 />
+      <UseMemoExample />
     </div>
   );
 }
