@@ -7,7 +7,7 @@ function UseRefExample1() {
   }
   return <>
     <h1>useRef for accessing the DOM nodes or React elements</h1>
-    <input type="text" className="form-control" ref={inputRef} />
+    <input type="text" className="form-control mb-3" ref={inputRef} />
     <button className='btn btn-primary' onClick={focusInput}>focus text input</button>
   </>;
 }
