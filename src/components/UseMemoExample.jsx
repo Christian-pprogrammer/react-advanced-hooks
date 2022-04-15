@@ -4,7 +4,7 @@ not on each rerender when state data changes or the props changes
 
 Firstly without useMemo used, when i always changed the state the expensive function run setting
 expensiveValue to the calculated value since the variable in component is reinitialized in react.
-To avoid this, i will memoise the value returned by expensiveFunction  so that when it returns same 
+To avoid this, i will cache the value returned by expensiveFunction  so that when it returns same 
 value, it means it doesn't change and i will not need to run expensiveFunction
 */
 import { useMemo, useState } from 'react';
